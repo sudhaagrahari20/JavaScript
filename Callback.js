@@ -16,4 +16,12 @@ function calculator (a, b, sumCallback) {
     sumCallback(a, b);
 }
 calculator(2, 5, sum);
+
+
+//setimeout()
+const hello = () => {
+    console.log("hello");
+};
+setTimeout(hello, 3000);
+
      
